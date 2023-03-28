@@ -2,7 +2,7 @@ html,
 body {
   min-width: 290px;
   color: #4d4e53;
-  background-color: #009f6a;
+  background-color: #9f0085;
   font-family:'Courier New', Courier, monospace;
   line-height: 1;
 }
@@ -15,11 +15,11 @@ body {
   width: 300px;
   height: 100%;
   border-right: 5px solid;
-  border-color: hsl(0, 100%, 50%);
+  border-color: hsl(114, 100%, 50%);
 }
 
 header {
-  color: gold;
+  color: rgb(0, 242, 255);
   margin: 10px;
   text-align: center;
   font-size: 1.8em;
@@ -39,7 +39,7 @@ header {
   }
   
   #navbar li {
-    color: hsl(0, 100%, 50%);
+    border-color: hsl(114, 100%, 50%);
     border-top: 5px solid;
     list-style: none;
     position: relative;
